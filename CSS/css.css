@@ -1,0 +1,121 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    margin-left: 50px;
+}
+.nav{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.red{
+    color: #FD6E0A;
+}
+.btn-h{
+    width: 121px;
+    height: 61px;
+    left: 226px;
+    top: 51px;
+    background: #FD6E0A;
+    border: 0px;
+    border-radius: 5px
+    
+}
+.btn-h-font{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  
+    color: #ffffff;
+}
+.navitem{
+    width: 50px;
+    height: 27px;
+    left: 980px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.header{
+    background: #fff8f3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.banner{
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between
+}
+.bstart{
+   
+    
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+.bname{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+.btext{
+    width: 585px;
+    height: 60px;
+    left: 230px;
+    top: 499px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.btn-cv{
+    margin-top: 15px;
+    width: 200px;
+    height: 50px;
+    left: 230px;
+    top: 590px;
+    color: #ffffff;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.pic{
+    margin-top: 0px;
+    width: 1584px;
+    height: 676px;
+    left: 978px;
+    /* top: 161px; */
+}
