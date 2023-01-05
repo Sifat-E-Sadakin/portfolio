@@ -163,7 +163,7 @@ table tr td{
 .ce{
     
     border-radius: 10px;  
-    margin-top: 130px; 
+    margin-top: 40px; 
     padding-top: 130px;
     font-size: 35px;
     font-weight: 700;
@@ -198,8 +198,8 @@ skill{
 }
 .r{
     border-radius: 10px;  
-    margin-top: 130px; 
-    padding-top: 130px;
+    margin-top: 20px; 
+    padding-top: 80px;
     font-size: 15px;
     font-weight: 700;
     text-align: center;
@@ -209,4 +209,61 @@ skill{
 }
 .rc{
     display: flex;
+}
+.rt{
+    /* font-weight: 400;
+    
+    font-size: 16px; */
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.in{
+    font-weight: 700;
+    font-size: 25px;
+}
+.uni{
+    font-weight: 600;
+    font-size: 20px;
+}
+.result{
+    font-weight: 400;
+    font-size: 16px;
+}
+/* .btn-cv{
+    width: 121px;
+    height: 61px;
+    left: 226px;
+    top: 51px;
+    background: #FD6E0A;
+    border: 0px;
+    border-radius: 5px
+} */
+.c{
+    display: flex;
+    padding: 130px 200px;
+    gap: 100px;
+    background: #fff8f3;
+}
+
+.c input, textarea{
+    margin-bottom: 20px;
+    border: 0px;
+    padding: 20px;
+    width: 100%;
+
+}
+#forpadding{
+    padding-bottom: 50px;
+}
+.rest{
+    border-radius: 10px;  
+    margin-top: 100px; 
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
