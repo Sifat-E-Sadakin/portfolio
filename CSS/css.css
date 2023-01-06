@@ -66,6 +66,9 @@ nav li{
     display: flex;
     justify-content: space-between
 }
+.banner p{
+    padding-bottom: 50px;
+}
 .bstart{
    
     
@@ -209,6 +212,8 @@ skill{
 }
 .rc{
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 .rt{
     /* font-weight: 400;
@@ -266,4 +271,11 @@ skill{
     margin-left: 200px;
     margin-right: 200px;
 
+}
+.b{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
