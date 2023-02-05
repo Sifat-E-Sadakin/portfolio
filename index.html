@@ -8,10 +8,44 @@
     <link rel="stylesheet" href="CSS/css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/93d2f87ab7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="header " >
-        <nav>
+    <header class="header container max-w-fit" >
+        
+<nav class=" px-0 lg:mx-28 sm:px-0 py-2.5 rounded">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <a href="https://flowbite.com/" class="flex items-center">
+          <img src=""" class="h-6 mr-3 sm:h-9" alt="" />
+          <span class="self-center text-xl font-semibold whitespace-nowrap"> <h2 class="nav" >Sadakin <span class="red">S.</span>E</h2></span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm  md:hidden  focus:outline-none focus:ring-2  " aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="flex flex-col p-4 mt-4 border  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+        <!-- <nav class="flex mx-28">
             <h2 class="nav" >Sadakin <span class="red">S.</span>E</h2>
             <ul>
                 <li class="navitem">Portfolio</li>
@@ -23,10 +57,10 @@
                 <!-- <li class="navitem">+8801791507027</li> -->
 
 
-                <li><button class="btn-h"><span class="btn-h-font">Hire</span></button></li>
+                <!-- <li><button class="btn-h"><span class="btn-h-font">Hire</span></button></li>
             </ul>
-        </nav>   
-    <div class="banner">
+        </nav>    --> 
+    <div class="banner flex justify-center items-center lg:mx-28">
         <div >
             <h3 class="bstart">  Hi, I am</h3>
             <h1 class="bname">Sifat-E-Sadakin</h1>
@@ -188,5 +222,6 @@
     <footer>
 
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 </body>
 </html>

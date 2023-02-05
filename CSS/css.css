@@ -3,12 +3,12 @@
 }
 
 /* nav */
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
-}
-nav ul{
+} */
+/* nav ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@ nav li{
 .nav{
     font-weight: 800;
     font-size: 45px;
-}
+} */
 
 .red{
     color: #FD6E0A;
@@ -57,13 +57,13 @@ nav li{
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-.banner{
+/* .banner{
     margin-top: 0px;
     margin-left: 200px;
     margin-right: 200px;
     display: flex;
     justify-content: space-around;
-}
+} */
 /* img{
     overflow-clip-margin: content-box;
     overflow: clip;
@@ -378,6 +378,7 @@ a{
     nav li{
         margin-left: 2px;
         padding: 10px;
+        
     }
     #img{
         width: 90%;
